@@ -1,0 +1,11 @@
+using './main.bicep'
+
+param vmName = 'myVM'
+param vmSize = 'Standard_B2s'
+param adminUsername = 'azureuser'
+param adminPassword = 'ChangeMe123!@'
+param environment = 'dev'
+param imagePublisher = 'MicrosoftWindowsServer'
+param imageOffer = 'WindowsServer'
+param imageSku = '2022-Datacenter'
+param imageVersion = 'latest'
